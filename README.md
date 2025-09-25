@@ -41,6 +41,7 @@ s.size(): Get the number of elements
 While the STL version is standard, understanding custom implementations is crucial for theoretical knowledge:
 
 a. Array Implementation<br>
+
 A fixed-size array is used.
 
 A top index tracks the position of the last inserted element.
@@ -52,6 +53,7 @@ Pop: Decrement top. Must check for Stack Underflow (array empty).
 Efficiency: Very fast, O(1) for all core operations, and good cache locality.
 
 b. Linked List Implementation<br>
+
 A singly-linked list is used, where insertion and deletion always occur at the head of the list.
 
 The head of the list serves as the top of the stack.
